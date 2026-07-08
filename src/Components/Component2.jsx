@@ -1,6 +1,6 @@
 import React from "react";
 
-const MyComponent2 = () => {
+const Component2 = () => {
   const firstName = "Nombre";
   return React.createElement(
     'div',
@@ -10,4 +10,4 @@ const MyComponent2 = () => {
   );
 };
 
-export default MyComponent2;
+export default Component2;

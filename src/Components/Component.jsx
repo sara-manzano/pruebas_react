@@ -1,6 +1,6 @@
 import React from "react";
 
-const MyComponent = () => {
+const Component = () => {
   const firstName = "USER";
   return (
     <div>
@@ -10,4 +10,4 @@ const MyComponent = () => {
   );
 };
 
-export default MyComponent;
+export default Component;
