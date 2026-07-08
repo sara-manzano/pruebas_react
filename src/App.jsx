@@ -1,32 +1,17 @@
 import React from 'react'
 import './App.css'
+import ComponentAsync from './Components/ComponentAsync'
+import MyComponent2 from './Components/Component2'
+import MyComponent from './Components/Component'
 
-const MiComponente = () => {
-  const firstName = "USUARIO";
-  return (
-    <div>
-      <h2>Hola</h2>
-      <p>Bienvenido a la aplicación</p>
-    </div>
-  );
-};
-
-const MiComponente2 = () => {
-  const firstName = "Nombre";
-  return React.createElement(
-    'div',
-    null,
-    React.createElement('h2', null, firstName),
-    React.createElement('p', null, 'Introduce tu nombre'),
-  );
-};
 
 function App() {
   return (
     <div className="App">
       <h1>Pruebas React</h1>
-      <MiComponente />
-      <MiComponente2 />
+      <MyComponent />
+      <MyComponent2 />
+      <ComponentAsync />
     </div>
   );
 }
